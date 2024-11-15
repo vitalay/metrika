@@ -60,7 +60,8 @@ a:hover {
 } */
 a.button {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 20px 40px;
+    border-radius: 5px;
     background-color: red; /* Цвет фона */
     color: black; /* Цвет текста */
     text-align: center;
@@ -68,7 +69,7 @@ a.button {
     /* border-radius: 5px; Скругленные углы */
     font-size: 16px;
     font-weight: bold;
-    transition: background-color 0.6s; /* Плавный переход при наведении */
+    transition: background-color 0.3s; /* Плавный переход при наведении */
   }
   
   a.button:hover {
