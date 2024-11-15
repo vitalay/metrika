@@ -1,12 +1,59 @@
-h1{
-    
-    font-size: 50px;
-    text-align: center;
-    text-transform: uppercase;
-    text-decoration: underline;
-    font-weight: 900;
-    font-family: 'Times New Roman', Times, serif;
+body {
+  font-family: "Manrope", sans-serif;
+}
+.title {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+  color: var(--text);
+}
 
-    
-    
+.Interer {
+  width: 1150px;
+  height: 500px;
+  background-image: url("../123.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.text1 {
+  color: wheat;
+  font-size: 20px;
+  width: 400px;
+  padding-top: 379px;
+  padding-left: 40px;
+  padding-right: 680px;
+  padding-bottom: 40px;
+}
+
+.textH2 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 45px;
+  letter-spacing: -0.03em;
+  color: var(--text);
+}
+.text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 45px;
+  letter-spacing: -0.03em;
+  color: var(--text);
+}
+
+a {
+  display: block;
+  width: 255px;
+  height: 50px;
+  border: 1px solid red;
+  text-align: center;
+  line-height: 50px;
+  text-decoration: none;
+  color: red;
+  background-color: yellow;
+}
+a:hover {
+  color: #262525;
 }
