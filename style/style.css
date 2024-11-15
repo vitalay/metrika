@@ -42,7 +42,7 @@ body {
   letter-spacing: -0.03em;
   color: var(--text);
 }
-
+/* 
 a {
   display: block;
   width: 255px;
@@ -52,8 +52,25 @@ a {
   line-height: 50px;
   text-decoration: none;
   color: red;
-  background-color: yellow;
+
+ 
 }
 a:hover {
   color: #262525;
-}
+} */
+a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: red; /* Цвет фона */
+    color: black; /* Цвет текста */
+    text-align: center;
+    text-decoration: none;
+    /* border-radius: 5px; Скругленные углы */
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.6s; /* Плавный переход при наведении */
+  }
+  
+  a.button:hover {
+    background-color: wheat; /* Цвет при наведении */
+  }
